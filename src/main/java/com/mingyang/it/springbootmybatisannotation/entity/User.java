@@ -1,6 +1,8 @@
 package com.mingyang.it.springbootmybatisannotation.entity;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private Integer id;
 
     private String username;
